@@ -65,7 +65,7 @@ WHERE
     OR
     total_sale IS NULL;
     
--- 
+-- Removing null
 DELETE FROM retail_sales
 WHERE 
     transaction_id IS NULL
@@ -83,6 +83,16 @@ WHERE
     cogs IS NULL
     OR
     total_sale IS NULL;
+
+-- NULL Detection (Optimized)
+SELECT *
+FROM retail_sales
+WHERE to_jsonb(retail_sales)::text LIKE '%null%';
+
+-- Remove NULL Rows
+DELETE
+FROM retail_sales
+WHERE to_jsonb(retail_sales)::text LIKE '%null%';
     
 -- Data Exploration
 
@@ -232,4 +242,5 @@ FROM hourly_sale
 GROUP BY shift
 
 -- End of project
+
 
