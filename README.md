@@ -115,3 +115,14 @@ This project provides hands-on experience with PostgreSQL, emphasizing clean dat
 ## Author – Kaushik Bhadra
 
 This project is part of my SQL portfolio, showcasing PostgreSQL skills including data cleaning, optimized NULL handling, aggregations, window functions, and CTEs.
+
+---
+
+## 📢 Connect With Me
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/kaushikbhadra07" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Kaushik%20Bhadra-blue?style=for-the-badge&logo=linkedin" />
+  </a>
+</p>
+
