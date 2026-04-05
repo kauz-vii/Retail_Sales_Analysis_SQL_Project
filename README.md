@@ -125,4 +125,3 @@ This project is part of my SQL portfolio, showcasing PostgreSQL skills including
     <img src="https://img.shields.io/badge/LinkedIn-Kaushik%20Bhadra-blue?style=for-the-badge&logo=linkedin" />
   </a>
 </p>
-
