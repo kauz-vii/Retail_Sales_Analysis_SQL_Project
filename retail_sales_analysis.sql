@@ -1,4 +1,4 @@
--- Create TABLE
+-- Create TABLE 
 DROP TABLE IF EXISTS retail_sales;
 CREATE TABLE retail_sales
             (
