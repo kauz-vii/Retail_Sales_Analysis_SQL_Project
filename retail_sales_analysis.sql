@@ -15,7 +15,7 @@ CREATE TABLE retail_sales
                 total_sale FLOAT
             );
 
--- TABLE DESCRIPTION
+-- TABLE DESCRIPTION 
 SELECT
     column_name,
     data_type,
